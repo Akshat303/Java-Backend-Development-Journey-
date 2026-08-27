@@ -1,7 +1,13 @@
 check java vesrion => java--version
 draw.io (website){https://app.diagrams.net/}
-
-
+------------------------------------
+git commands:-
+{
+git add .
+git commit -m "any comment"
+git push
+git status
+}
 
 --------------------------
 Today class
