@@ -1,0 +1,9 @@
+check java vesrion => java--version
+draw.io (website){https://app.diagrams.net/}
+
+
+
+--------------------------
+Today class
+what is java and feature of java
+how to write class name  (eg- ClassName)
