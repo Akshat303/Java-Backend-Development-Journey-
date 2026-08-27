@@ -10,6 +10,4 @@ git status
 }
 
 --------------------------
-Today class
-what is java and feature of java
-how to write class name  (eg- ClassName)
+Day 3 of java backend learning
