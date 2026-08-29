@@ -11,3 +11,6 @@ git status
 
 --------------------------
 Day 3 of java backend learning
+
+
+how to write method/variable name 
