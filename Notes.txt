@@ -10,4 +10,5 @@ git status
 }
 
 --------------------------
-Day 4 of My Java Backend Development Journey...
+<<<<<<< HEAD
+Day 4 of My Java Backend Development Journey.
