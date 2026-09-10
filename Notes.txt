@@ -11,4 +11,7 @@ git status
 
 --------------------------
 <<<<<<< HEAD
-Day 4 of My Java Backend Development Journey.
+Day 4 
+
+args[] how o take input from cmd
+comand line argument
