@@ -9,9 +9,7 @@ git push
 git status
 }
 
---------------------------
-<<<<<<< HEAD
-Day 4 
 
-args[] how o take input from cmd
-comand line argument
+extract file using cmd => jar -xvf rt.jar
+--------------------------
+Day 6

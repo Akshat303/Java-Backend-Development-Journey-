@@ -276,6 +276,7 @@ class Movie {
 	}
 }
 
+// 20 School Fees
 class SchoolFee {
 	public static void main(String args[]){
 		String student = args[0];
