@@ -18,11 +18,13 @@ class NextDataType{
 		byte num = 26;
 		byte num2 = 2;
 		int num3 = 6;
-		// float long floatNum = 3665.1548 ;
+		float f = 123.456789f;
+		double d = 123.456789123456789d;
 		System.out.println(num);
 		
 		System.out.println(num + num2);
-		
+		System.out.println("Float value  (32-bit): " + f);
+        System.out.println("Double value (64-bit): " + d);
 		System.out.println("byte+int = " + num + num3);
 		System.out.println("Char = " + name);
 		System.out.println("int+char = " + num3 + name); //int+char = 6j
