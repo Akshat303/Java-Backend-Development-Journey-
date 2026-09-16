@@ -12,20 +12,4 @@ git status
 
 extract file using cmd => jar -xvf rt.jar
 --------------------------
-Day 6
-Data type
-what is data and type?
-type of data type?
-defauly value is 0
-byte -128 to 127 (why and where use)
-=,==
-array is type of byte
-local value inslizied is imporatnet
-boolena default value is  false
-
-
-Researh - What is the purpose of bytes data type?
-
-H/W 
-data type 
-variable decliration 
+Day 9
