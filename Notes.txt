@@ -13,3 +13,5 @@ git status
 extract file using cmd => jar -xvf rt.jar
 --------------------------
 Day 9
+
+SOLID ?
