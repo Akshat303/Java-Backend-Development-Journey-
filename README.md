@@ -11,7 +11,7 @@ A structured repository tracking my continuous learning, coding practice, core c
 
 This repository documents my day-to-day progress, comprehensive notes, competitive programming solutions, and hands-on exercises covering Core Java and Backend Development fundamentals.
 
-```
+```text
 Java-Backend-Development-Journey-/
 │
 ├── CP/                   # Competitive Programming & problem-solving practice
