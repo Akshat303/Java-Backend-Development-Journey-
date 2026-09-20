@@ -1,10 +1,11 @@
-class OrderDetails{
+class OrderDetails
+{
 	private int  itemPrice = 250;
-	public static void main (String itemName){
-		OrderDetails orderDet = new OrderDetails();
-		
+	public  void placeOrder (String itemName)
+	{
+		// OrderDetails orderDet = new OrderDetails();
 		System.out.println("Item Name " + itemName);
-		System.out.println("Item Price " + orderDet.itemPrice );
+		System.out.println("Item Price " + itemPrice );
 		
 		
 	}

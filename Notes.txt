@@ -16,10 +16,20 @@ Day 10
 
 
 A:\KodeWala\classRoom\Day10>javac *.java
-
 A:\KodeWala\classRoom\Day10>java Driver
-Diver.main Start
-Order value is : 1200
-Place an order for : iphone8
+
 
 A:\KodeWala\classRoom\Day10>
+
+
+jab ek folder mai java file or ek folder mai class file uska run code
+
+Compile karne ke liye (-d flag ka use hota hai):
+-d ka matlab hota hai destination directory jahan saari .class files jaayengi.
+
+javac -d class_files java_files/*.java
+
+Run karne ke liye (-cp ya -classpath flag ka use hota hai):
+-cp batata hai ki JVM ko .class files kahan dhoondhni hain:
+
+java -cp class_files OrderMang
