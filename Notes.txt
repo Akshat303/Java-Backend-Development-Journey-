@@ -12,6 +12,14 @@ git status
 
 extract file using cmd => jar -xvf rt.jar
 --------------------------
-Day 9
+Day 10
 
-SOLID ?
+
+A:\KodeWala\classRoom\Day10>javac *.java
+
+A:\KodeWala\classRoom\Day10>java Driver
+Diver.main Start
+Order value is : 1200
+Place an order for : iphone8
+
+A:\KodeWala\classRoom\Day10>
