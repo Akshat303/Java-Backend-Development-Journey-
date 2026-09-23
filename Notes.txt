@@ -35,7 +35,10 @@ Run karne ke liye (-cp ya -classpath flag ka use hota hai):
 java -cp class_files OrderMang
 
 
-
+private   → Same Class
+default   → Same Package
+protected → Same Package + Child
+public    → Everywhere
 -------------------------------------------
 Day - 11
 
