@@ -4,7 +4,7 @@ public class DriverAccount {
 
 	public static void main(String[] args) {
 
-		Account acc = new Account(); // Default constructure call
+		Account acc = new Account(); // Default Constructors
 
 		System.out.println(acc.amount + " " + acc.name);
 
