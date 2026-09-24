@@ -42,7 +42,6 @@ public    → Everywhere
 -------------------------------------------
 .equalsIgnoreCase () --> is a string method used to compare two String without caring about upper / lowwecase letters
 
-
 ..equalsIgnoreCase() --> case-insensitive
 .equal() --> case-sensitive
 
