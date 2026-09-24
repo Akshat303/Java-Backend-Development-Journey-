@@ -40,8 +40,9 @@ default   → Same Package
 protected → Same Package + Child
 public    → Everywhere
 -------------------------------------------
-Day - 11
+.equalsIgnoreCase () --> is a string method used to compare two String without caring about upper / lowwecase letters
 
-java solit
 
-ehy debug
+..equalsIgnoreCase() --> case-insensitive
+.equal() --> case-sensitive
+
