@@ -45,3 +45,42 @@ public    → Everywhere
 ..equalsIgnoreCase() --> case-insensitive
 .equal() --> case-sensitive
 
+
+
+Memory Management -->
+
+Declared inside a method, constructor, or block.
+Local variale --> stack
+
+local variable belong  to ameyhod stack frame; object data itself is generlly on the heap 
+
+
+Instance variable
+
+Declared inside a class but outside methods/constructors/blocks, without static
+
+Static variable
+Declared with static.
+It belongs to the class, rather than separately belonging to every object.
+
+Local variables → Stack
+Instance variables → Heap
+Static variables → Method Area
+
+This is a useful learning model, but don't treat it as an absolute JVM implementation guarantee.
+
+------------------------------------------------
+Today topic 
+memory management
+variable stack heap
+.this
+super()
+constructor
+-------------------------------------
+today day 16 
+this () -- always in top
+this.
+super ()
+extend 
+by default object extend
+calling same class(user) constructor
