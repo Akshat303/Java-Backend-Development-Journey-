@@ -32,6 +32,20 @@ public class Product
 					this.rating = _rating;
 					this.available = _available;
 				}
+	/**
+	 * system is getting / default value
+	 */
+	public  Product() {
+		this(
+		        "Unknown Product",
+		        0.0,
+		        "N/A",
+		        "General",
+		        "No description available",
+		        0,
+		        0.0,
+		        false);
+	}
 	
 //				 Display  default product parameter
 	 void sysoDefault() {
