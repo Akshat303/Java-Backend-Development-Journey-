@@ -17,27 +17,27 @@ public class BankAccount {
 		}
 
 		// Validate account number
-		if (_accountNumber <= 0) {
+		else if (_accountNumber <= 0) {
 			System.out.println("Invalid account number");
 			return;
 		}
 
 		// Validate balance
-		if (_balance < 0) {
+		else if (_balance < 0) {
 			System.out.println("Initial balance cannot be negative");
 			return;
-		}
-
-		// Assign values only after validation
-		this.accountHolder = _accountHolder;
-		this.accountNumber = _accountNumber;
-		this.balance = _balance;
-
-		// Account status
-		if (balance >= 500) {
-			active = true;
 		} else {
-			active = false;
+			// Assign values only after validation
+			this.accountHolder = _accountHolder;
+			this.accountNumber = _accountNumber;
+			this.balance = _balance;
+
+			// Account status
+			if (balance >= 500) {
+				active = true;
+			} else {
+				active = false;
+			}
 		}
 	}
 
