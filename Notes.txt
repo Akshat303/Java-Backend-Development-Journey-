@@ -72,3 +72,10 @@ This is a useful learning model, but don't treat it as an absolute JVM implement
 ------------------------------------------------
 debuging
 crl+shift+i to see inpesct 
+
+Day16
+constructor 
+this
+supar
+Day14
+control Flow
