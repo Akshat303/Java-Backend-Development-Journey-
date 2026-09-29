@@ -70,17 +70,5 @@ Static variables → Method Area
 This is a useful learning model, but don't treat it as an absolute JVM implementation guarantee.
 
 ------------------------------------------------
-Today topic 
-memory management
-variable stack heap
-.this
-super()
-constructor
--------------------------------------
-today day 16 
-this () -- always in top
-this.
-super ()
-extend 
-by default object extend
-calling same class(user) constructor
+debuging
+crl+shift+i to see inpesct 
