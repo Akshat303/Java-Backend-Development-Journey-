@@ -77,5 +77,16 @@ Day16
 constructor 
 this
 supar
-Day14
+Day17
 control Flow
+
+Day 18
+Array 
+Default value is depent on dataType of array default value of dataType Ex-->{int=0,String=null} 
+
+T/C of search element O(n)
+
+.length
+
+Loop
+For loop 
