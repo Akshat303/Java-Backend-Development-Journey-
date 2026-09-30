@@ -10,6 +10,7 @@ public class DriverCustomer {
 		CustomersInfo customer4 = new CustomersInfo("Aman", 2000, "7412589630");
 
 		CustomersInfo CustomersInfo[] = new CustomersInfo[4];
+		
 		CustomersInfo[0] = customer1;
 		CustomersInfo[1] = customer2;
 		CustomersInfo[2] = customer3;
