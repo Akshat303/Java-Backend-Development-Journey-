@@ -84,9 +84,22 @@ Day 18
 Array 
 Default value is depent on dataType of array default value of dataType Ex-->{int=0,String=null} 
 
-T/C of search element O(n)
+T/C of search element O(n) in array
 
 .length
 
 Loop
 For loop 
+-----------------------------
+Day 19
+ctrl+shift+t --> search class
+
+sc.nextLine()--> reding String input
+
+sc.close() --> close connection
+
+after take input int  --> this will leave new line char \n
+int var = sc.nectInt();
+sc.nextLine() --> consume the extra char
+
+sc.hasNextInt() -->use check valid
