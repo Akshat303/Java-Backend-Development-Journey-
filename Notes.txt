@@ -1,5 +1,10 @@
 check java vesrion => java--version
 draw.io (website){https://app.diagrams.net/}
+
+A:
+cd Java-Backend-Development-Journey-
+
+cd /d A:\Java-Backend-Development-Journey-
 ------------------------------------
 git commands:-
 {
