@@ -8,7 +8,7 @@ public class DriverDiscountCalculator {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter customer type (Gold/Silver/Regular): ");
+        System.out.println("Enter customer type (Gold/Silver/Regular): ");
         String customerType = scanner.nextLine();
 
         System.out.print("Enter purchase amount: ");
