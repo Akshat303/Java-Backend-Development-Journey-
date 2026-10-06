@@ -1,5 +1,4 @@
 package com.scan_while;
-
 import java.util.Scanner;
 
 public class StudentMarks {

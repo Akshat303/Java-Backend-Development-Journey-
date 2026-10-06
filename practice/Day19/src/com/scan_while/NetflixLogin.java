@@ -1,5 +1,4 @@
 package com.scan_while;
-
 public class NetflixLogin {
 
     String correctUsername = "admin";

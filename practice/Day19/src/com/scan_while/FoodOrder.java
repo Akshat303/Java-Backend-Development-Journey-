@@ -1,5 +1,4 @@
 package com.scan_while;
-
 public class FoodOrder {
 
     private int totalBill = 0;

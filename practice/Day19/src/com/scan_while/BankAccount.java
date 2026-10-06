@@ -1,6 +1,5 @@
 package com.scan_while;
 import java.util.Scanner;
-
 public class BankAccount {
 
     public static void main(String[] args) {
