@@ -1,9 +1,6 @@
 check java vesrion => java--version
 draw.io (website){https://app.diagrams.net/}
 
-A:
-cd Java-Backend-Development-Journey-
-
 cd /d A:\Java-Backend-Development-Journey-
 ------------------------------------
 git commands:-
@@ -110,3 +107,10 @@ sc.nextLine() --> consume the extra char
 
 sc.hasNextInt() -->use check valid
 ----------------------------------------------
+Day22
+String s ="hello";  //both are object but different way to created
+String s1 = new String("Hello") //both are object different way to created
+
+String constant pool
+Try to change string then get the new object
+
