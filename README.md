@@ -14,7 +14,6 @@ This repository documents my day-to-day progress, comprehensive notes, competiti
 ```text
 Java-Backend-Development-Journey-/
 │
-├── CP/                   # Competitive Programming & problem-solving practice
 ├── classRoom/            # Structured lecture topics & classroom implementations
 ├── practice/             # Hands-on coding exercises, experiments & drill tasks
 ├── Notes/                # Detailed module notes & reference documentation
