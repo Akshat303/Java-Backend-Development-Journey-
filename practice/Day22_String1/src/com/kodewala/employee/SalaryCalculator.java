@@ -5,9 +5,9 @@ public class SalaryCalculator {
 	private double basicSalary;
 	private double attendancePercentage;
 
-	public SalaryCalculator(double basicSalary, double attendancePercentage) {
-		this.basicSalary = basicSalary;
-		this.attendancePercentage = attendancePercentage;
+	public SalaryCalculator(double _basicSalary, double _attendancePercentage) {
+		this.basicSalary = _basicSalary;
+		this.attendancePercentage = _attendancePercentage;
 	}
 
 	public double calculateBonus() {
