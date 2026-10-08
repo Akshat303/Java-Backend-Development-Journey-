@@ -18,6 +18,11 @@ public class Driver {
 		String s6 = "b";
 		System.out.println(s5 == s6);
 		System.out.println(s5.equals(s6));
+		
+		String s7 = "c";
+		String s8 = "c";
+		System.out.println(s7 == s8);
+		System.out.println(s7.equals(s7));
 
 	}
 
