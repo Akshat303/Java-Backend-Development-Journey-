@@ -6,10 +6,13 @@ public class Driver {
 
 		System.out.println(s1);
 
-		String s2 = "Kodewala ";
-		String s3 = "academy";
-		String s4 = s2 + s3;
-		System.out.println(s4);
+		String s2 = "Kodewala "; // scp
+		String s3 = "academy";   // scp
+		String s4 = s2 + s3;    // heap --> new StringBuulder()
+		System.out.println(s4); 
+		String s5 = "Kodewala academy";
+		
+		System.out.println(s5 == s4.intern());
 
 	}
 
