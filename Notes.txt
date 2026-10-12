@@ -115,6 +115,11 @@ String constant pool
 Try to change string then get the new object
 
 ----------------------------------------------------
+
+Today revision
+constructors
+scp and heap which is go where and why
+
 Day24
 .append()
 .intern()
