@@ -114,7 +114,17 @@ String s1 = new String("Hello") //both are object different way to created
 String constant pool
 Try to change string then get the new object
 
-test
+----------------------------------------------------
+Day24
+.append()
+.intern()
+--------------------------------------------------------
+Day25
+Static --> compile time
+final class is not become parents
+final method not override
+final variable --> can not change value
+final variable == constant
+constant --> capital case
 
-
-
+String buffer and String builder
