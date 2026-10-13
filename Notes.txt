@@ -133,3 +133,17 @@ final variable == constant
 constant --> capital case
 
 String buffer and String builder
+
+--------------------------------------
+Day26
+
+Init blocks
+Static 
+Static 
+{
+}
+Instance int block
+{
+}
+
+difference b/w iib and scb
