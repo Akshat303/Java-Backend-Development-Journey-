@@ -71,3 +71,21 @@ Requirements:
 Test: Price ₹500, add 5 items, remove 2 items.
 Expected total: ₹1,500.
 Think: Should total be stored as a field or calculated when needed?
+----------------------------------------------------------------------------
+
+Q5. Employee Salary Management
+Medium+
+Concept: Protecting salary data
+Create a class named Employee.
+Private fields: employeeId, name, basicSalary, bonus.
+Requirements:
+- Initialize employee ID, name and salary through a constructor.
+- Basic salary must be positive.
+- Bonus cannot be negative.
+- Create setBonus(double bonus) with validation.
+- Create calculateTotalSalary() returning basic salary + bonus.
+- Employee ID must not change after construction.
+- Provide getters for the required fields.
+Test: Basic salary ₹40,000 and bonus ₹5,000.
+Expected total salary: ₹45,000.
+Think: Why should salary not have a public setter that accepts any value?
