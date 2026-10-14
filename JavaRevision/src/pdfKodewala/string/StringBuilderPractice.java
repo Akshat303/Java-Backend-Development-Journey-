@@ -1,4 +1,4 @@
-package com.pdfKodewala.string;
+package pdfKodewala.string;
 
 public class StringBuilderPractice {
 

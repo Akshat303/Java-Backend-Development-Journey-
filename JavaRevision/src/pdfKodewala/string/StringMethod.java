@@ -1,4 +1,4 @@
-package com.pdfKodewala.string;
+package pdfKodewala.string;
 
 /*Quick revision — String Methods
 Method	    Kaam

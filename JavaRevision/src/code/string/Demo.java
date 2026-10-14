@@ -1,4 +1,4 @@
-package com.string;
+package code.string;
 
 public class Demo {
 
