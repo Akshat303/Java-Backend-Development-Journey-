@@ -160,3 +160,4 @@ LLD -->low level Design --> Depends on oop's
 
 1. Encapsulation ->
 	variable (Data) + Method (Logic or functionalities)
+	

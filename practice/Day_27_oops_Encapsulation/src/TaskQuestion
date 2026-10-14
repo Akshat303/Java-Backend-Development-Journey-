@@ -1,0 +1,38 @@
+Q1. Bank Account Management
+Medium
+Concept: private, constructor, getter, setter alternatives
+Create a class named BankAccount.
+Requirements:
+
+- Create private variables: accountHolderName, accountNumber, balance.
+- Initialize all variables through a constructor.
+- Provide a getter for the account holder's name and balance.
+- Create deposit(double amount) to add money.
+- Create withdraw(double amount) to withdraw money.
+- Reject zero or negative amounts.
+- Prevent withdrawal if the balance is insufficient.
+- Do not provide a setter that lets anyone directly change the balance.
+Test: Start with ₹5,000, deposit ₹1,000, withdraw ₹2,000, then try withdrawing ₹10,000.
+Expected final balance: ₹4,000.
+
+-----------------------------------------------------------------------------------------------------------
+
+Q2. Student Result System
+Medium
+Concept: Validation inside setters
+Create a class named Student.
+Private fields: name, rollNumber, marks.
+Requirements:
+- Set the student's name and roll number through a constructor.
+- Marks must be between 0 and 100.
+- Create setMarks(int marks) that updates marks only when valid.
+- Create getMarks() to read marks.
+- Create getGrade():
+  - 90–100: A
+  - 75–89: B
+  - 60–74: C
+  - 40–59: D
+  - Below 40: Fail
+- Invalid marks must not overwrite the previous valid marks.
+Test: Set marks to 85, then try setting them to 120.
+Think: Why should validation happen inside the class instead of relying on main()?

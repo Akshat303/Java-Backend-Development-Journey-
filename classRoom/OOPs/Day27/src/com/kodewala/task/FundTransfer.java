@@ -2,37 +2,33 @@ package com.kodewala.task;
 
 public class FundTransfer {
 
-	private String accountHolderName;
-	private String accountNumber;
-	private double balance;
+    private String accountHolderName;
+    private String accountNumber;
+    private double balance;
 
-	public FundTransfer(String _accountHolderName, String _accountNumber, double _balance) {
-		super();
-		this.accountHolderName = _accountHolderName;
-		this.accountNumber = _accountNumber;
-		this.balance = _balance;
-	}
+    public FundTransfer(String accountHolderName, String accountNumber, double balance) {
+        this.accountHolderName = accountHolderName;
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+    }
 
-	public void reciveFund(int amount) {
-		if (amount > 0) {
-			balance = balance + amount;
-		} else {
-			System.out.println("Enter valid positive amount ");
-		}
+    public void receiveFund(double amount) {
+        if (amount > 0) {
+            balance += amount;
+        } else {
+            System.out.println("Enter a valid positive amount.");
+        }
+    }
 
-	}
+    public void sendFund(double amount) {
+        if (amount <= balance && amount > 0) {
+            balance -= amount;
+        } else {
+            System.out.println("Insufficient balance or invalid amount. Current balance: " + balance);
+        }
+    }
 
-	public void sendFund(int amount) {
-		if (balance >= amount) {
-			balance = balance - amount;
-		} else {
-			System.out.println("your balance is low " + balance);
-		}
-
-	}
-
-	public double getBalance() {
-		return balance;
-	}
-
+    public double getBalance() {
+        return balance;
+    }
 }
