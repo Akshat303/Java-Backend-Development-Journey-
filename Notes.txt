@@ -147,3 +147,16 @@ Instance int block
 }
 
 difference b/w iib and scb
+
+-------------------------------------
+Day27 {Oop's}
+resuable, modular, secure, scalable and maintainable
+
+LLD -->low level Design --> Depends on oop's
+1. Encapsulation -> Combine data (variable) and method as a unit
+2. Inheritance -> Code written by someone can be reused
+3. Polymorphism -> Act based on situation
+4. Abstraction -> Hide the implementation
+
+1. Encapsulation ->
+	variable (Data) + Method (Logic or functionalities)
