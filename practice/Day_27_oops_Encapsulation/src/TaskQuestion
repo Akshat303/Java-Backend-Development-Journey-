@@ -54,3 +54,20 @@ Requirements:
 - Brand and model must not be directly modifiable after object creation.
 Test: Start with 70% battery and 30 volume. Charge by 50% and set volume to 80.
 Think: Why is a controlled method better than a public variable?
+--------------------------------------------------------------------
+Q4. Shopping Cart System
+Medium+
+Concept: Encapsulated state and calculations
+Create a class named ShoppingCart.
+Private fields: productName, price, quantity.
+Requirements:
+- Initialize product name and price through a constructor.
+- Price must be greater than zero.
+- Quantity must never become negative.
+- Create addItems(int quantity).
+- Create removeItems(int quantity); do not allow removing more than the available quantity.
+- Create calculateTotal().
+- Provide getters, but no direct setter for the total.
+Test: Price ₹500, add 5 items, remove 2 items.
+Expected total: ₹1,500.
+Think: Should total be stored as a field or calculated when needed?
