@@ -36,3 +36,21 @@ Requirements:
 - Invalid marks must not overwrite the previous valid marks.
 Test: Set marks to 85, then try setting them to 120.
 Think: Why should validation happen inside the class instead of relying on main()?
+----------------------------------------------------------------------------------
+
+Q3. Mobile Phone Settings
+Medium
+Concept: Read-only fields and controlled modification
+Create a class named MobilePhone.
+Private fields: brand, model, batteryPercentage, volume.
+Requirements:
+- Initialize all fields using a constructor.
+- Battery must stay between 0 and 100.
+- Volume must stay between 0 and 100.
+- Create chargeBattery(int percentage) to increase battery.
+- Battery must never exceed 100.
+- Create changeVolume(int volume) with validation.
+- Create getters for all fields.
+- Brand and model must not be directly modifiable after object creation.
+Test: Start with 70% battery and 30 volume. Charge by 50% and set volume to 80.
+Think: Why is a controlled method better than a public variable?
