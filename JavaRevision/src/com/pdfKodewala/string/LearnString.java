@@ -1,4 +1,4 @@
-package com.kodewala.pdfPractice;
+package com.pdfKodewala.string;
 
 public class LearnString {
 
