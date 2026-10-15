@@ -13,5 +13,13 @@ public class Demo2 {
 			s += i; // s =s + 1
 			System.out.println(s);
 		}
+		String first = "Java";
+		String second = new String("Java");
+
+		System.out.println(first == second);
+
+		String pooled = second.intern();
+		System.out.println(first == pooled);
+
 	}
 }

@@ -114,15 +114,6 @@ String s1 = new String("Hello") //both are object different way to created
 String constant pool
 Try to change string then get the new object
 
-----------------------------------------------------
-
-Today revision
-constructors
-scp and heap which is go where and why
-
-Day24
-.append()
-.intern()
 --------------------------------------------------------
 Day25
 Static --> compile time
@@ -134,19 +125,6 @@ constant --> capital case
 
 String buffer and String builder
 
---------------------------------------
-Day26
-
-Init blocks
-Static 
-Static 
-{
-}
-Instance int block
-{
-}
-
-difference b/w iib and scb
 
 -------------------------------------
 Day27 {Oop's}
@@ -161,3 +139,9 @@ LLD -->low level Design --> Depends on oop's
 1. Encapsulation ->
 	variable (Data) + Method (Logic or functionalities)
 	
+------------------------------------------
+Day28
+Encapsulation --> Data hiding. Declare field/data as a private and provide public
+
+Inheritance-->
+Reusability-> someone developed and you are using it.
