@@ -1,4 +1,4 @@
-package code.oops;
+package code.classObject;
 
 public class ClassObject {
 
