@@ -23,3 +23,33 @@ Child class — Car extends Vehicle
 - Create a displayCarDetails() method.
 - Call the inherited start() method.
 Test: Create a car with brand "Toyota", speed 120 and fuel type "Petrol".
+
+
+
+Q2. Method Overriding — Animal Sounds
+Medium
+Create parent class Animal and child class Dog.
+Animal
+- Private field name.
+- Constructor and getter.
+- Method makeSound() prints "Animal makes a sound".
+Dog
+- Override makeSound() to print "Dog barks".
+
+
+Q3. Online Order and Express Order
+Medium–Hard
+Create Order and ExpressOrder.
+Order
+- Private fields: orderId, orderAmount.
+- Validate that the order amount is positive.
+- Provide getters.
+- Method calculateFinalAmount() returns the order amount.
+ExpressOrder
+- Private field deliveryCharge.
+- Override calculateFinalAmount() to include the delivery charge.
+- Reject a negative delivery charge.
+- Use super() to initialize the parent.
+Test: Order amount ₹2,000 and delivery charge ₹150.
+Expected final amount: ₹2,150.
+Challenge: If Order has a parameterized constructor but no no-argument constructor, what happens when ExpressOrder doesn't explicitly call super(...)?
