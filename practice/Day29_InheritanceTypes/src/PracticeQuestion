@@ -1,0 +1,25 @@
+Part 1: Single Inheritance — Questions 1–5
+
+Single inheritance mein ek child class ek parent class ko inherit karti hai.
+Parent class: Vehicle
+brand, speed, start()
+
+extends
+
+Child class: Car
+fuelType, drive()
+-------------------------------------
+Q1. Vehicle and Car Management
+Medium
+Create two classes: Vehicle and Car.
+Parent class — Vehicle
+- Private fields: brand, speed.
+- Constructor to initialize both fields.
+- Getters for both fields.
+- Method start() that prints "Vehicle started".
+Child class — Car extends Vehicle
+- Add a private field fuelType.
+- Initialize the parent fields using super().
+- Create a displayCarDetails() method.
+- Call the inherited start() method.
+Test: Create a car with brand "Toyota", speed 120 and fuel type "Petrol".
