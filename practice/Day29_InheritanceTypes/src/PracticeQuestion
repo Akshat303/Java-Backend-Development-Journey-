@@ -68,3 +68,130 @@ Requirements:
 - Print all fields using methods.
 Test: Akshat, age 25, employee ID 101, salary ₹60,000, team size 5.
 Challenge: Does Manager inherit name directly from Person, or through Employee?
+
+
+Q5. User → RegisteredUser → PremiumUser
+Medium–Hard
+Create these classes:
+- User: private username, with constructor and getter.
+- RegisteredUser extends User: private email, active; method deactivateAccount().
+- PremiumUser extends RegisteredUser: private subscriptionFee; method calculateAnnualFee().
+Rules:
+- Username and email cannot be empty.
+- Subscription fee must be positive.
+- A deactivated user cannot access premium features.
+- Annual fee = monthly subscription fee × 12.
+Test: Monthly fee ₹499.
+Expected annual fee: ₹5,988.
+Challenge: Should PremiumUser directly modify the parent's private active field? Design an appropriate method instead.
+
+Q6. School → Teacher → ClassTeacher
+Hard
+Create three classes:
+School → Teacher → ClassTeacher
+School
+- Private schoolName.
+- Constructor and getter.
+Teacher
+- Private teacherName, salary.
+- Constructor, getters and method displayTeacherDetails().
+ClassTeacher
+- Private className, studentCount.
+- Method calculateStudentTeacherWorkload() returning the student count per class teacher for this simplified exercise.
+Rules:
+- No negative salary or student count.
+- Use constructor chaining with super().
+- Override displayTeacherDetails() to display all details.
+- Use super.displayTeacherDetails() to reuse the parent method.
+Test: School "ABC School", teacher "Rahul", salary ₹45,000, class "10-A", 40 students.
+Challenge: Explain the order in which the three constructors execute.
+
+Q7. Employee → Developer, Tester, Manager
+Medium–Hard
+Create a parent Employee and three child classes.
+Employee
+- Private name, basicSalary.
+- Constructor, getters.
+- Method calculateSalary().
+Developer
+- Add projectBonus.
+- Override salary calculation.
+Tester
+- Add testingBonus.
+- Override salary calculation.
+Manager
+- Add managementAllowance.
+- Override salary calculation.
+Test values:
+- Developer: ₹40,000 + ₹8,000.
+- Tester: ₹35,000 + ₹5,000.
+- Manager: ₹60,000 + ₹15,000.
+Expected salaries: ₹48,000, ₹40,000 and ₹75,000.
+Challenge: Can all three objects be stored in an Employee[] array and processed using one loop?
+
+Q8. Shape → Circle, Rectangle, Triangle
+Medium–Hard
+Create a parent class Shape with a method calculateArea().
+Create child classes:
+- Circle: private radius.
+- Rectangle: private length, width.
+- Triangle: private base, height.
+Requirements:
+- All dimensions must be positive.
+- Override calculateArea() in every child.
+- Circle area = \(\pi r^2\).
+- Rectangle area = length × width.
+- Triangle area = ½ × base × height.
+Test:
+- Circle radius 7.
+- Rectangle 10 × 5.
+- Triangle base 8, height 6.
+Expected areas approximately 153.94, 50 and 24.
+Challenge: What should the parent Shape.calculateArea() do? Consider whether an abstract class would be appropriate.
+
+Q9. Notification → Email, SMS, Push
+Hard
+Create a parent class Notification and child classes EmailNotification, SMSNotification, and PushNotification.
+Parent
+- Private field recipient.
+- Constructor and getter.
+- Method send().
+Children
+- Email: validate an email address and override send().
+- SMS: validate a phone number and override send().
+- Push: validate a device token and override send().
+For this practice exercise, simulate sending messages with console output rather than integrating actual services.
+Test: Create one object of each type and send a notification.
+Challenge: Use Notification[] to store the objects. Call send() in a loop and observe which implementation executes.
+
+Q10. PaymentMethod → UPI, Card, NetBanking
+Hard ⭐
+This is your final challenge. It combines encapsulation, hierarchical inheritance, method overriding and polymorphism.
+Create a parent class PaymentMethod with three child classes:
+- UPIPayment
+- CardPayment
+- NetBankingPayment
+Parent class
+- Private accountHolder, amount.
+- Constructor with validation.
+- Getters.
+- Method processPayment().
+UPIPayment
+- Private upiId.
+- Validate that the UPI ID is not empty.
+- Override processPayment().
+CardPayment
+- Private lastFourDigits.
+- Validate exactly four digits.
+- Override processPayment().
+NetBankingPayment
+- Private bankName.
+- Validate that the bank name is not empty.
+- Override processPayment().
+Rules:
+- Amount must be positive.
+- Sensitive payment details must not have unrestricted public setters.
+- Every child must reuse the parent's common data.
+- Use an array of PaymentMethod references and call processPayment() in a loop.
+Expected behavior: Each payment method prints its own processing message.
+Final challenge: Explain why this design is hierarchical inheritance and how encapsulation prevents invalid object states.
