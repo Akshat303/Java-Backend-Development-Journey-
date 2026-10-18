@@ -53,3 +53,18 @@ ExpressOrder
 Test: Order amount ₹2,000 and delivery charge ₹150.
 Expected final amount: ₹2,150.
 Challenge: If Order has a parameterized constructor but no no-argument constructor, what happens when ExpressOrder doesn't explicitly call super(...)?
+
+
+Q4. Person → Employee → Manager
+Medium
+Create three classes:
+- Person: private name, age; constructor and getters.
+- Employee extends Person: private employeeId, salary; constructor and getters.
+- Manager extends Employee: private teamSize; constructor and displayDetails().
+Requirements:
+- Each constructor must initialize its own fields and parent fields.
+- Use super() at the correct level.
+- Reject negative age, salary and team size.
+- Print all fields using methods.
+Test: Akshat, age 25, employee ID 101, salary ₹60,000, team size 5.
+Challenge: Does Manager inherit name directly from Person, or through Employee?
