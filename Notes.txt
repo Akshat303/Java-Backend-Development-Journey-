@@ -162,18 +162,6 @@ Type of inheritance
 
 -----------------------------------------------------------------
 
-PDF Notes
-Encapsulation 
-Data Hiding,
-Combine data and variable as a unit 
-
-Chaar important terms
-Term	Meaning
-Class	Data aur methods ko organize karne wali structure
-Data / fields	Jaise balance, pin, accountHolder
-private	Field ya method ko class ke bahar direct access se restrict karta hai
-public methods	Bahar ke code ko class ki functionality use karne ka controlled way dete hain
-
-•  Getter: Value read karne ke liye, jaise getBalance().
-•  Setter: Value update karne ke liye, jaise setAge(int age).
+Day30
+Abstraction
 
