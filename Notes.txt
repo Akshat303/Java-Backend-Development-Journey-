@@ -165,3 +165,20 @@ Type of inheritance
 Day30
 Abstraction
 
+Day 31
+Method overriding
+	//1. Method name should be same 
+	//2. Type, order and number of argument should be same
+	//3. Return type should be same except covariant 
+	//4. Access  modifier --> Should be same or widen(public)
+Method Overloading
+	1. Works with in the class
+	2. You have multiple  version of same class
+--------------------------------------------
+Day32-
+polymorphism
+
+--------------------------
+Day33
+
+
