@@ -1,4 +1,4 @@
-package com.day36.interface1;
+package com.day36.interface1.animal;
 
 //Interface batata hai kya karna hai, aur implementing class batati hai kaise karna hai.
 

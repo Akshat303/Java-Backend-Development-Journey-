@@ -1,4 +1,4 @@
-package com.day36.interface1;
+package com.day36.interface1.animal;
 
 public class Tiger implements Animal {
 

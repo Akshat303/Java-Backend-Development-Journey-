@@ -1,4 +1,4 @@
-package com.day36.interface1;
+package com.day36.interface1.payment;
 
 public class MainPayment {
 	public static void main(String[] args) {
