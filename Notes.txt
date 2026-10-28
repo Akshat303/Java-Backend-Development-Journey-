@@ -180,5 +180,32 @@ polymorphism
 
 --------------------------
 Day33
+polymorphism revision
+-----------------------------
+Day 34-
+Opp's Revison 
+---------------------------------
+Day 35
+Oop's Practice
 
+===============================
+Day36 --> Interface {java 1.7 or 7 before}
+Interface--> what need to be done, it depend on the class , how it is getting the func 
 
+interface by default public and abstract
+eg-> public abstract void methodName(); { public abstract  option write or not
+
+interface variable 
+by default public static final --> constant
+===================================
+Day 30 se practice krna hai 
+
+My study
+video day 
+32
+35
+===================
+my project
+npm.cmd run dev
+
+settings/environment-variables
