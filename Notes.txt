@@ -204,6 +204,8 @@ My study
 video day 
 32
 35
+
+34 35 due class 
 ===================
 my project
 npm.cmd run dev
