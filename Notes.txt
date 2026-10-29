@@ -162,8 +162,6 @@ Type of inheritance
 
 -----------------------------------------------------------------
 
-Day30
-Abstraction
 
 Day 31
 Method overriding
@@ -175,20 +173,7 @@ Method Overloading
 	1. Works with in the class
 	2. You have multiple  version of same class
 --------------------------------------------
-Day32-
-polymorphism
 
---------------------------
-Day33
-polymorphism revision
------------------------------
-Day 34-
-Opp's Revison 
----------------------------------
-Day 35
-Oop's Practice
-
-===============================
 Day36 --> Interface {java 1.7 or 7 before}
 Interface--> what need to be done, it depend on the class , how it is getting the func 
 
@@ -197,6 +182,10 @@ eg-> public abstract void methodName(); { public abstract  option write or not
 
 interface variable 
 by default public static final --> constant
+-----------------------------------
+Day37-> Interface
+java 8 {default in interface
+use default in interface for option implementation 
 ===================================
 Day 30 se practice krna hai 
 
