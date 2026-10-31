@@ -186,6 +186,8 @@ by default public static final --> constant
 Day37-> Interface
 java 8 {default in interface
 use default in interface for option implementation 
+----------------------------------------------
+
 ===================================
 Day 30 se practice krna hai 
 
@@ -196,7 +198,9 @@ video day
 
 34 35 due class 
 ===================
+website for pdf mcq-->https://app.mindgrasp.ai/dashboard/cc5bf94b-18a8-4813-a028-13b42c8ba877
 my project
 npm.cmd run dev
 
 settings/environment-variables
+pending work- notes test Part-c upload krna hai 
