@@ -24,8 +24,8 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Delivery delivery = new Delivery();
-
+		Delivery delivery = new Delivery(); 
+		
 		// compile time --> it will check the method in delivery class
 		// runtime --> it will call the method of delivery class
 
@@ -34,11 +34,18 @@ public class Main {
 
 		System.out.println(delivery.hashCode());
 
-		Delivery delivery2 = new ExpressBee();
+		Delivery delivery2 = (Delivery) new ExpressBee(); //Upcasting Child to parent
 		delivery2.doDelivery();
 
 		Delivery delivery3 = new EKart();
 		delivery3.doDelivery();
+		
+		ExpressBee expressBee = (ExpressBee) new Delivery(); // Downcasting {Parent to child}
+		expressBee.doDelivery();
+		
+		Delivery del = new ExpressBee();
+		ExpressBee expressBee2 = (ExpressBee) del; //Downcasting
+		expressBee2.doDelivery();
 
 	}
 
