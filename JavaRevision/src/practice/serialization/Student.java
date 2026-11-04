@@ -3,6 +3,7 @@ package practice.serialization;
 import java.io.Serializable;
 
 public class Student implements Serializable {
+	private static final long serialVwesionUID =1L;
 	private String name;
 	transient private String email;
 	private int age;

@@ -3,6 +3,8 @@ package com.day40_serialization.whatsappMessage;
 import java.io.Serializable;
 
 public class Message implements Serializable {
+	
+//	private static final long serialVwesionUID =1L;
 
 	private String messageId;
 	private String message;

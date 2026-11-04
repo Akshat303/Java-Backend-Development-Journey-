@@ -10,7 +10,7 @@ public class serialization {
 
 		// Create object of student class
 
-		Student st1 = new Student("Akshat", "ak@gmail.com", 26, "BTM Bangalore");
+		Student st1 = new Student("Akshat", "ak@gmail.com", 26, "BTM phase-1 Bangalore");
 		
 		
 		//Write data to file
