@@ -15,6 +15,10 @@ public class DeSerialization {
 		
 		Student stInfo = (Student)ois.readObject();
 		stInfo.displayname();
+		
+		fis.close();
+		ois.close();
+		System.out.println("DeSerialization.main() End....");
 	}
 
 }
