@@ -1,6 +1,6 @@
 package com.day41_deepCloning;
 
-public class Employee implements Cloneable { // Level -1
+public class Employee implements Cloneable { 
 
 	String name; // copy
 	String empCode; // copy

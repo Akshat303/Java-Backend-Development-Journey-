@@ -204,3 +204,16 @@ npm.cmd run dev
 
 settings/environment-variables
 pending work- notes test Part-c upload krna hai 
+
+
+-----------------------------------------
+
+Deep explanation + examples + code -->
+Meri uploaded Kodewala Core & Advanced Java PDF mein "First Java Program" topic ko locate karke Hinglish mein padhana shuru karo. Relevant PDF page number aur original content dikhao, phir deep explanation, line-by-line examples, Java code aur output do. PDF ke actual content se grounded rehna.
+
+
+Quick revision -->
+Meri uploaded Kodewala Core & Advanced Java PDF mein "Java Introduction" topic ko locate karke Hinglish mein padhana shuru karo. Relevant PDF page number aur original content dikhao, phir quick revision do. PDF ke actual content se grounded rehna.
+
+Interview-focused explanation + practice -->
+Meri uploaded Kodewala Core & Advanced Java PDF mein "Java Introduction" topic ko locate karke Hinglish mein padhana shuru karo. Relevant PDF page number aur original content dikhao, phir interview-focused explanation, questions aur practice do. PDF ke actual content se grounded rehna.
