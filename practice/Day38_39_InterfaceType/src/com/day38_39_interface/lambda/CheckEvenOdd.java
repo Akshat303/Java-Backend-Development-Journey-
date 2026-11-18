@@ -1,7 +1,0 @@
-package com.day38_39_interface.lambda;
-
-@FunctionalInterface
-public interface CheckEvenOdd {
-	boolean check(int num);
-
-}
