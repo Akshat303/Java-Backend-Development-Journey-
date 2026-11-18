@@ -207,10 +207,27 @@ pending work- notes test Part-c upload krna hai
 
 
 -----------------------------------------
+Choose your first lesson
+
+PDF ke page number se padhna hai
+
+Topic ke naam se padhna hai
+
+Topic ka naam
+
+Explanation ka level
+Quick revision
+
+Deep explanation + examples + code
+
+Interview-focused explanation + practice
+
+
+Start studying
+
 
 Deep explanation + examples + code -->
-Meri uploaded Kodewala Core & Advanced Java PDF mein "First Java Program" topic ko locate karke Hinglish mein padhana shuru karo. Relevant PDF page number aur original content dikhao, phir deep explanation, line-by-line examples, Java code aur output do. PDF ke actual content se grounded rehna.
-
+Meri uploaded Kodewala Core & Advanced Java PDF mein "Non-Primitive Data Types" topic ko locate karke Hinglish mein padhana shuru karo. Relevant PDF page number aur original content dikhao, phir deep explanation, line-by-line examples, Java code aur output do. PDF ke actual content se grounded rehna.
 
 Quick revision -->
 Meri uploaded Kodewala Core & Advanced Java PDF mein "Java Introduction" topic ko locate karke Hinglish mein padhana shuru karo. Relevant PDF page number aur original content dikhao, phir quick revision do. PDF ke actual content se grounded rehna.
