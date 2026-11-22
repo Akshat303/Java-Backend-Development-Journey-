@@ -2,6 +2,8 @@ check java vesrion => java--version
 draw.io (website){https://app.diagrams.net/}
 
 cd /d A:\Java-Backend-Development-Journey-
+
+47 48 49 want to see class
 ------------------------------------
 git commands:-
 {
@@ -221,7 +223,25 @@ Quick revision
 Deep explanation + examples + code
 
 Interview-focused explanation + practice
+------------------------------------------
 
+
+Choose your first lesson
+
+PDF ke page number se padhna hai
+
+Topic ke naam se padhna hai
+
+Topic ka naam
+
+Explanation ka level
+Quick revision
+
+Deep explanation + examples + code
+
+Interview-focused explanation + practice
+
+-------------------------------------------------------
 
 Start studying
 
