@@ -7,7 +7,7 @@ public class Driver {
 
 		String className = "com.kodewala.exception4.Driver";
 
-		Class.forName(className); // loading the class into memory
+//		Class.forName(className); // loading the class into memory
 
 		System.out.println(" class loaded...");
 
