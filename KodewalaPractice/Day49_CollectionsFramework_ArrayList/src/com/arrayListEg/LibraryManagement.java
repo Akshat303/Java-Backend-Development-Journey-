@@ -2,10 +2,6 @@ package com.arrayListEg;
 
 import java.util.ArrayList;
 
-/*
- * LibraryService is responsible only for managing books.
- * (Single Responsibility Principle - SRP)
- */
 class LibraryService
 {
 
